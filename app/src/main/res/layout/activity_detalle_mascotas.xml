@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.sqlite_bd.activities.DetalleMascotasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:text="INFORMACION MASCOTA"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="ID"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/c_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Desconocido)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Nombre mascota"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/c_nombre_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Desconocido)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Raza"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/c_raza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Desconocido)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="INFORMACION DUEÑO"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="ID"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/c_id_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Desconocido)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Nombre "
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/c_nombre_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Desconocido)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Telefono"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/c_telefono_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Desconocido)"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

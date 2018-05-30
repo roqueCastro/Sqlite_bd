@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus.sqlite_bd.activities.MainActivity">
+
+    <Button
+        android:id="@+id/registrarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Registar usuairo"
+        />
+    <Button
+        android:id="@+id/registrarMascotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Registar mascotas"
+        />
+    <Button
+        android:id="@+id/consultaUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Consultar usuario"
+        />
+    <Button
+        android:id="@+id/consultaUSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Consultar usuario spinner"
+        />
+    <Button
+        android:id="@+id/consultaUListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Consultar usuario List View"
+        />
+    <Button
+        android:id="@+id/consultaListViewMasco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Consultar List View Mascotas"
+        />
+
+</LinearLayout>
